@@ -5,7 +5,7 @@
 
 > **Financial Data Science Case Study:** Volatility assessment, cross-asset correlation, and risk-adjusted efficiency (Sharpe Ratio).
 
----
+
 
 ## 📌 Executive Summary
 
@@ -17,7 +17,7 @@ This study analyzes the historical daily performance, volatility, and risk-adjus
 * **🎢 Gold's Volatility:** Gold registered the highest daily volatility ($\sigma = 1.59\%$), acting as a high-volatility asset over the analyzed timeframe.
 * **🛡️ Effective Diversification:** A low cross-asset correlation ($r = 0.12$) between Gold and the S&P 500 confirms Gold's role as an effective short-term portfolio diversifier.
 
----
+
 
 ## 📊 Quantitative Metrics Summary
 
@@ -27,7 +27,7 @@ This study analyzes the historical daily performance, volatility, and risk-adjus
 | **Gold** | 1.59% | **1.05** | 🟡 Acceptable |
 | **S&P 500** | 1.06% | **0.81** | 🔴 Insufficient |
 
----
+
 
 ## 📐 Quantitative Methodology
 
@@ -43,7 +43,7 @@ Where:
 * $\sigma_p$: Standard deviation of daily returns.
 * $\sqrt{252}$: Annualization factor based on 252 trading days.
 
----
+
 
 ## 🛠️ Tech Stack & Dependencies
 
@@ -52,7 +52,7 @@ Where:
 * **Data Processing:** `pandas`, `numpy`
 * **Visualization:** `matplotlib`, `seaborn`
 
----
+
 
 ## 📈 Visual Analysis & Market Data
 
@@ -67,14 +67,14 @@ Summary statistics for daily percentage returns ($\%$) across the analyzed timef
 | **Best Day (Max)** | 6.083% | **9.515%** | 4.323% |
 | **Worst Day (Min)** | -11.366% | -5.975% | -5.831% |
 
----
+
 
 ### 2. Cumulative Growth of 1€ Invested
 Evolution of historical capital performance over time:
 
 ![Cumulative Growth](cumulative_growth.png)
 
----
+
 
 ### 3. Cross-Asset Correlation Matrix
 Evaluating diversification benefits using daily return correlation ($r$):
