@@ -1,35 +1,32 @@
-# Quantitative_Financial_Analysis_Proyect
-> **Financial Data Science Case Study:** Volatility assessment, cross-classification, and risk-adjusted return (Sharpe Ratio)
-
-# 📊 Quantitative Asset Analysis: Gold, S&P 500 & IBEX 35
+# Quantitative Asset Analysis: Gold, S&P 500 & IBEX 35
 
 > **Financial Data Science Case Study:** Volatility assessment, cross-asset correlation, and risk-adjusted efficiency (Sharpe Ratio).
 
 
 
-## 📌 Executive Summary
+## Executive Summary
 
 This study analyzes the historical daily performance, volatility, and risk-adjusted efficiency of three major market benchmarks (**Gold**, **S&P 500**, and **IBEX 35**) to evaluate capital efficiency beyond gross returns.
 
-### 💡 Key Findings
+### Key Findings
 
-* **🏆 Efficiency Leader:** **IBEX 35** achieved the highest Sharpe Ratio (**1.76**), offering the highest excess return per unit of total risk.
-* **🎢 Gold's Volatility:** Gold registered the highest daily volatility ($\sigma = 1.59\%$), acting as a high-volatility asset over the analyzed timeframe.
-* **🛡️ Effective Diversification:** A low cross-asset correlation ($r = 0.12$) between Gold and the S&P 500 confirms Gold's role as an effective short-term portfolio diversifier.
+* **Efficiency Leader:** **IBEX 35** achieved the highest Sharpe Ratio (**1.76**), offering the highest excess return per unit of total risk.
+* **Gold's Volatility:** Gold registered the highest daily volatility ($\sigma = 1.59\%$), acting as a high-volatility asset over the analyzed timeframe.
+* **Effective Diversification:** A low cross-asset correlation ($r = 0.12$) between Gold and the S&P 500 confirms Gold's role as an effective short-term portfolio diversifier.
 
 
 
-## 📊 Quantitative Metrics Summary
+## Quantitative Metrics Summary
 
 | Asset | Daily Volatility ($\sigma$) | Annualized Sharpe Ratio ($R_f = 3\%$) | Rating |
 | :--- | :---: | :---: | :---: |
-| **IBEX 35** | 1.07% | **1.76** | 🟢 Excellent |
-| **Gold** | 1.59% | **1.05** | 🟡 Acceptable |
-| **S&P 500** | 1.06% | **0.81** | 🔴 Insufficient |
+| **IBEX 35** | 1.07% | **1.76** | Excellent |
+| **Gold** | 1.59% | **1.05** | Acceptable |
+| **S&P 500** | 1.06% | **0.81** | Insufficient |
 
 
 
-## 📐 Quantitative Methodology
+## Quantitative Methodology
 
 ### Annualized Sharpe Ratio
 
@@ -45,7 +42,7 @@ Where:
 
 
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 * **Language:** Python
 * **Data Extraction:** `yfinance`
@@ -54,7 +51,7 @@ Where:
 
 
 
-## 📈 Visual Analysis & Market Data
+## Visual Analysis & Market Data
 
 ### 1. Daily Percentage Returns Statistics
 Summary statistics for daily percentage returns ($\%$) across the analyzed timeframe:
@@ -85,7 +82,7 @@ Evaluating diversification benefits using daily return correlation ($r$):
 | **S&P 500** | `0.12` | `1.00` | `0.29` |
 | **IBEX 35** | `0.21` | `0.29` | `1.00` |
 
-> 💡 **Takeaway:** The low correlation of **0.12** between Gold and the S&P 500 confirms that Gold acts as an effective short-term risk diversifier.
+> **Takeaway:** The low correlation of **0.12** between Gold and the S&P 500 confirms that Gold acts as an effective short-term risk diversifier.
 
 
 
